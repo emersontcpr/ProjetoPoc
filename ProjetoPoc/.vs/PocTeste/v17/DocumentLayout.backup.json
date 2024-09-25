@@ -1,0 +1,360 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Cliente\\source\\repos\\TesteBanco\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ED57F7FB-24CC-4164-BA1F-F5084FF7129E}|ProjetoWeb\\ProjetoWeb.csproj|c:\\users\\cliente\\source\\repos\\testebanco\\projetoweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ED57F7FB-24CC-4164-BA1F-F5084FF7129E}|ProjetoWeb\\ProjetoWeb.csproj|solutionrelative:projetoweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED57F7FB-24CC-4164-BA1F-F5084FF7129E}|ProjetoWeb\\ProjetoWeb.csproj|c:\\users\\cliente\\source\\repos\\testebanco\\projetoweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED57F7FB-24CC-4164-BA1F-F5084FF7129E}|ProjetoWeb\\ProjetoWeb.csproj|solutionrelative:projetoweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED57F7FB-24CC-4164-BA1F-F5084FF7129E}|ProjetoWeb\\ProjetoWeb.csproj|c:\\users\\cliente\\source\\repos\\testebanco\\projetoweb\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED57F7FB-24CC-4164-BA1F-F5084FF7129E}|ProjetoWeb\\ProjetoWeb.csproj|solutionrelative:projetoweb\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED57F7FB-24CC-4164-BA1F-F5084FF7129E}|ProjetoWeb\\ProjetoWeb.csproj|c:\\users\\cliente\\source\\repos\\testebanco\\projetoweb\\settings\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED57F7FB-24CC-4164-BA1F-F5084FF7129E}|ProjetoWeb\\ProjetoWeb.csproj|solutionrelative:projetoweb\\settings\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51103325-6562-4F58-8394-3DF41BD2138F}|ApiTesteBanco\\WebApiPOC.csproj|c:\\users\\cliente\\source\\repos\\testebanco\\apitestebanco\\webapipoc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{51103325-6562-4F58-8394-3DF41BD2138F}|ApiTesteBanco\\WebApiPOC.csproj|solutionrelative:apitestebanco\\webapipoc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51103325-6562-4F58-8394-3DF41BD2138F}|ApiTesteBanco\\WebApiPOC.csproj|c:\\users\\cliente\\source\\repos\\testebanco\\apitestebanco\\service\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51103325-6562-4F58-8394-3DF41BD2138F}|ApiTesteBanco\\WebApiPOC.csproj|solutionrelative:apitestebanco\\service\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3AB8FF3-BBEC-4F3D-A6AA-E555CAE6CE42}|DataBaseEntity\\DataBaseEntity.csproj|c:\\users\\cliente\\source\\repos\\testebanco\\databaseentity\\repository\\loginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3AB8FF3-BBEC-4F3D-A6AA-E555CAE6CE42}|DataBaseEntity\\DataBaseEntity.csproj|solutionrelative:databaseentity\\repository\\loginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3AB8FF3-BBEC-4F3D-A6AA-E555CAE6CE42}|DataBaseEntity\\DataBaseEntity.csproj|c:\\users\\cliente\\source\\repos\\testebanco\\databaseentity\\context\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3AB8FF3-BBEC-4F3D-A6AA-E555CAE6CE42}|DataBaseEntity\\DataBaseEntity.csproj|solutionrelative:databaseentity\\context\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3AB8FF3-BBEC-4F3D-A6AA-E555CAE6CE42}|DataBaseEntity\\DataBaseEntity.csproj|c:\\users\\cliente\\source\\repos\\testebanco\\databaseentity\\mapper\\logradouromap .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3AB8FF3-BBEC-4F3D-A6AA-E555CAE6CE42}|DataBaseEntity\\DataBaseEntity.csproj|solutionrelative:databaseentity\\mapper\\logradouromap .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51103325-6562-4F58-8394-3DF41BD2138F}|ApiTesteBanco\\WebApiPOC.csproj|c:\\users\\cliente\\source\\repos\\testebanco\\apitestebanco\\service\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51103325-6562-4F58-8394-3DF41BD2138F}|ApiTesteBanco\\WebApiPOC.csproj|solutionrelative:apitestebanco\\service\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51103325-6562-4F58-8394-3DF41BD2138F}|ApiTesteBanco\\WebApiPOC.csproj|c:\\users\\cliente\\source\\repos\\testebanco\\apitestebanco\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51103325-6562-4F58-8394-3DF41BD2138F}|ApiTesteBanco\\WebApiPOC.csproj|solutionrelative:apitestebanco\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED57F7FB-24CC-4164-BA1F-F5084FF7129E}|ProjetoWeb\\ProjetoWeb.csproj|c:\\users\\cliente\\source\\repos\\testebanco\\projetoweb\\consultaapi\\webapipoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED57F7FB-24CC-4164-BA1F-F5084FF7129E}|ProjetoWeb\\ProjetoWeb.csproj|solutionrelative:projetoweb\\consultaapi\\webapipoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3AB8FF3-BBEC-4F3D-A6AA-E555CAE6CE42}|DataBaseEntity\\DataBaseEntity.csproj|c:\\users\\cliente\\source\\repos\\testebanco\\databaseentity\\repository\\logradourorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3AB8FF3-BBEC-4F3D-A6AA-E555CAE6CE42}|DataBaseEntity\\DataBaseEntity.csproj|solutionrelative:databaseentity\\repository\\logradourorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3AB8FF3-BBEC-4F3D-A6AA-E555CAE6CE42}|DataBaseEntity\\DataBaseEntity.csproj|c:\\users\\cliente\\source\\repos\\testebanco\\databaseentity\\repository\\interface\\ilogradourorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3AB8FF3-BBEC-4F3D-A6AA-E555CAE6CE42}|DataBaseEntity\\DataBaseEntity.csproj|solutionrelative:databaseentity\\repository\\interface\\ilogradourorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51103325-6562-4F58-8394-3DF41BD2138F}|ApiTesteBanco\\WebApiPOC.csproj|c:\\users\\cliente\\source\\repos\\testebanco\\apitestebanco\\service\\logradouroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51103325-6562-4F58-8394-3DF41BD2138F}|ApiTesteBanco\\WebApiPOC.csproj|solutionrelative:apitestebanco\\service\\logradouroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51103325-6562-4F58-8394-3DF41BD2138F}|ApiTesteBanco\\WebApiPOC.csproj|c:\\users\\cliente\\source\\repos\\testebanco\\apitestebanco\\dto\\lougradouroporclientegetporpaginacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51103325-6562-4F58-8394-3DF41BD2138F}|ApiTesteBanco\\WebApiPOC.csproj|solutionrelative:apitestebanco\\dto\\lougradouroporclientegetporpaginacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51103325-6562-4F58-8394-3DF41BD2138F}|ApiTesteBanco\\WebApiPOC.csproj|c:\\users\\cliente\\source\\repos\\testebanco\\apitestebanco\\controllers\\logradourocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51103325-6562-4F58-8394-3DF41BD2138F}|ApiTesteBanco\\WebApiPOC.csproj|solutionrelative:apitestebanco\\controllers\\logradourocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51103325-6562-4F58-8394-3DF41BD2138F}|ApiTesteBanco\\WebApiPOC.csproj|c:\\users\\cliente\\source\\repos\\testebanco\\apitestebanco\\dto\\logradourodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51103325-6562-4F58-8394-3DF41BD2138F}|ApiTesteBanco\\WebApiPOC.csproj|solutionrelative:apitestebanco\\dto\\logradourodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3AB8FF3-BBEC-4F3D-A6AA-E555CAE6CE42}|DataBaseEntity\\DataBaseEntity.csproj|c:\\users\\cliente\\source\\repos\\testebanco\\databaseentity\\model\\logradouro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3AB8FF3-BBEC-4F3D-A6AA-E555CAE6CE42}|DataBaseEntity\\DataBaseEntity.csproj|solutionrelative:databaseentity\\model\\logradouro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED57F7FB-24CC-4164-BA1F-F5084FF7129E}|ProjetoWeb\\ProjetoWeb.csproj|c:\\users\\cliente\\source\\repos\\testebanco\\projetoweb\\models\\json\\jsonconsultalistalogradouro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED57F7FB-24CC-4164-BA1F-F5084FF7129E}|ProjetoWeb\\ProjetoWeb.csproj|solutionrelative:projetoweb\\models\\json\\jsonconsultalistalogradouro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Cliente\\source\\repos\\TesteBanco\\ProjetoWeb\\Program.cs",
+              "RelativeDocumentMoniker": "ProjetoWeb\\Program.cs",
+              "ToolTip": "C:\\Users\\Cliente\\source\\repos\\TesteBanco\\ProjetoWeb\\Program.cs",
+              "RelativeToolTip": "ProjetoWeb\\Program.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T16:22:56.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Cliente\\source\\repos\\TesteBanco\\ProjetoWeb\\appsettings.json",
+              "RelativeDocumentMoniker": "ProjetoWeb\\appsettings.json",
+              "ToolTip": "C:\\Users\\Cliente\\source\\repos\\TesteBanco\\ProjetoWeb\\appsettings.json",
+              "RelativeToolTip": "ProjetoWeb\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-25T16:21:51.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Cliente\\source\\repos\\TesteBanco\\ProjetoWeb\\Settings\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "ProjetoWeb\\Settings\\JwtSettings.cs",
+              "ToolTip": "C:\\Users\\Cliente\\source\\repos\\TesteBanco\\ProjetoWeb\\Settings\\JwtSettings.cs",
+              "RelativeToolTip": "ProjetoWeb\\Settings\\JwtSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T16:21:45.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WebApiPOC",
+              "DocumentMoniker": "C:\\Users\\Cliente\\source\\repos\\TesteBanco\\ApiTesteBanco\\WebApiPOC.csproj",
+              "RelativeDocumentMoniker": "ApiTesteBanco\\WebApiPOC.csproj",
+              "ToolTip": "C:\\Users\\Cliente\\source\\repos\\TesteBanco\\ApiTesteBanco\\WebApiPOC.csproj",
+              "RelativeToolTip": "ApiTesteBanco\\WebApiPOC.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-25T16:21:14.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "C:\\Users\\Cliente\\source\\repos\\TesteBanco\\ApiTesteBanco\\Service\\LoginService.cs",
+              "RelativeDocumentMoniker": "ApiTesteBanco\\Service\\LoginService.cs",
+              "ToolTip": "C:\\Users\\Cliente\\source\\repos\\TesteBanco\\ApiTesteBanco\\Service\\LoginService.cs",
+              "RelativeToolTip": "ApiTesteBanco\\Service\\LoginService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAkwB8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T16:19:36.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Cliente\\source\\repos\\TesteBanco\\DataBaseEntity\\Repository\\LoginRepository.cs",
+              "RelativeDocumentMoniker": "DataBaseEntity\\Repository\\LoginRepository.cs",
+              "ToolTip": "C:\\Users\\Cliente\\source\\repos\\TesteBanco\\DataBaseEntity\\Repository\\LoginRepository.cs",
+              "RelativeToolTip": "DataBaseEntity\\Repository\\LoginRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAkwBIAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T16:19:30.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Cliente\\source\\repos\\TesteBanco\\DataBaseEntity\\Context\\DBContext.cs",
+              "RelativeDocumentMoniker": "DataBaseEntity\\Context\\DBContext.cs",
+              "ToolTip": "C:\\Users\\Cliente\\source\\repos\\TesteBanco\\DataBaseEntity\\Context\\DBContext.cs",
+              "RelativeToolTip": "DataBaseEntity\\Context\\DBContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAkwA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T16:19:23.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ILogradouroRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Cliente\\source\\repos\\TesteBanco\\DataBaseEntity\\Repository\\Interface\\ILogradouroRepository.cs",
+              "RelativeDocumentMoniker": "DataBaseEntity\\Repository\\Interface\\ILogradouroRepository.cs",
+              "ToolTip": "C:\\Users\\Cliente\\source\\repos\\TesteBanco\\DataBaseEntity\\Repository\\Interface\\ILogradouroRepository.cs",
+              "RelativeToolTip": "DataBaseEntity\\Repository\\Interface\\ILogradouroRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T01:42:32.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LogradouroMap .cs",
+              "DocumentMoniker": "C:\\Users\\Cliente\\source\\repos\\TesteBanco\\DataBaseEntity\\Mapper\\LogradouroMap .cs",
+              "RelativeDocumentMoniker": "DataBaseEntity\\Mapper\\LogradouroMap .cs",
+              "ToolTip": "C:\\Users\\Cliente\\source\\repos\\TesteBanco\\DataBaseEntity\\Mapper\\LogradouroMap .cs",
+              "RelativeToolTip": "DataBaseEntity\\Mapper\\LogradouroMap .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwBUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T01:07:50.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LogradouroRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Cliente\\source\\repos\\TesteBanco\\DataBaseEntity\\Repository\\LogradouroRepository.cs",
+              "RelativeDocumentMoniker": "DataBaseEntity\\Repository\\LogradouroRepository.cs",
+              "ToolTip": "C:\\Users\\Cliente\\source\\repos\\TesteBanco\\DataBaseEntity\\Repository\\LogradouroRepository.cs",
+              "RelativeToolTip": "DataBaseEntity\\Repository\\LogradouroRepository.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAwwC4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T01:07:23.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Logradouro.cs",
+              "DocumentMoniker": "C:\\Users\\Cliente\\source\\repos\\TesteBanco\\DataBaseEntity\\Model\\Logradouro.cs",
+              "RelativeDocumentMoniker": "DataBaseEntity\\Model\\Logradouro.cs",
+              "ToolTip": "C:\\Users\\Cliente\\source\\repos\\TesteBanco\\DataBaseEntity\\Model\\Logradouro.cs",
+              "RelativeToolTip": "DataBaseEntity\\Model\\Logradouro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T01:04:15.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LougradouroPorClienteGetPorPaginacao.cs",
+              "DocumentMoniker": "C:\\Users\\Cliente\\source\\repos\\TesteBanco\\ApiTesteBanco\\Dto\\LougradouroPorClienteGetPorPaginacao.cs",
+              "RelativeDocumentMoniker": "ApiTesteBanco\\Dto\\LougradouroPorClienteGetPorPaginacao.cs",
+              "ToolTip": "C:\\Users\\Cliente\\source\\repos\\TesteBanco\\ApiTesteBanco\\Dto\\LougradouroPorClienteGetPorPaginacao.cs",
+              "RelativeToolTip": "ApiTesteBanco\\Dto\\LougradouroPorClienteGetPorPaginacao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T00:49:22.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "JsonConsultaListaLogradouro.cs",
+              "DocumentMoniker": "C:\\Users\\Cliente\\source\\repos\\TesteBanco\\ProjetoWeb\\Models\\Json\\JsonConsultaListaLogradouro.cs",
+              "RelativeDocumentMoniker": "ProjetoWeb\\Models\\Json\\JsonConsultaListaLogradouro.cs",
+              "ToolTip": "C:\\Users\\Cliente\\source\\repos\\TesteBanco\\ProjetoWeb\\Models\\Json\\JsonConsultaListaLogradouro.cs",
+              "RelativeToolTip": "ProjetoWeb\\Models\\Json\\JsonConsultaListaLogradouro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T00:47:29.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LogradouroController.cs",
+              "DocumentMoniker": "C:\\Users\\Cliente\\source\\repos\\TesteBanco\\ApiTesteBanco\\Controllers\\LogradouroController.cs",
+              "RelativeDocumentMoniker": "ApiTesteBanco\\Controllers\\LogradouroController.cs",
+              "ToolTip": "C:\\Users\\Cliente\\source\\repos\\TesteBanco\\ApiTesteBanco\\Controllers\\LogradouroController.cs",
+              "RelativeToolTip": "ApiTesteBanco\\Controllers\\LogradouroController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAMwBgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T00:39:03.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\Cliente\\source\\repos\\TesteBanco\\ApiTesteBanco\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "ApiTesteBanco\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\Cliente\\source\\repos\\TesteBanco\\ApiTesteBanco\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "ApiTesteBanco\\Controllers\\ClienteController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAIA4wFkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T00:39:03.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WebApiPoc.cs",
+              "DocumentMoniker": "C:\\Users\\Cliente\\source\\repos\\TesteBanco\\ProjetoWeb\\ConsultaApi\\WebApiPoc.cs",
+              "RelativeDocumentMoniker": "ProjetoWeb\\ConsultaApi\\WebApiPoc.cs",
+              "ToolTip": "C:\\Users\\Cliente\\source\\repos\\TesteBanco\\ProjetoWeb\\ConsultaApi\\WebApiPoc.cs",
+              "RelativeToolTip": "ProjetoWeb\\ConsultaApi\\WebApiPoc.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAAwG8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T00:39:03.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LogradouroDto.cs",
+              "DocumentMoniker": "C:\\Users\\Cliente\\source\\repos\\TesteBanco\\ApiTesteBanco\\Dto\\LogradouroDto.cs",
+              "RelativeDocumentMoniker": "ApiTesteBanco\\Dto\\LogradouroDto.cs",
+              "ToolTip": "C:\\Users\\Cliente\\source\\repos\\TesteBanco\\ApiTesteBanco\\Dto\\LogradouroDto.cs",
+              "RelativeToolTip": "ApiTesteBanco\\Dto\\LogradouroDto.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAApwAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T00:39:03.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClienteService.cs",
+              "DocumentMoniker": "C:\\Users\\Cliente\\source\\repos\\TesteBanco\\ApiTesteBanco\\Service\\ClienteService.cs",
+              "RelativeDocumentMoniker": "ApiTesteBanco\\Service\\ClienteService.cs",
+              "ToolTip": "C:\\Users\\Cliente\\source\\repos\\TesteBanco\\ApiTesteBanco\\Service\\ClienteService.cs",
+              "RelativeToolTip": "ApiTesteBanco\\Service\\ClienteService.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAkwGAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T00:35:13.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LogradouroService.cs",
+              "DocumentMoniker": "C:\\Users\\Cliente\\source\\repos\\TesteBanco\\ApiTesteBanco\\Service\\LogradouroService.cs",
+              "RelativeDocumentMoniker": "ApiTesteBanco\\Service\\LogradouroService.cs",
+              "ToolTip": "C:\\Users\\Cliente\\source\\repos\\TesteBanco\\ApiTesteBanco\\Service\\LogradouroService.cs",
+              "RelativeToolTip": "ApiTesteBanco\\Service\\LogradouroService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T00:32:40.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\Cliente\\source\\repos\\TesteBanco\\ProjetoWeb\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "ProjetoWeb\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\Cliente\\source\\repos\\TesteBanco\\ProjetoWeb\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "ProjetoWeb\\Controllers\\ClienteController.cs",
+              "ViewState": "AgIAAPMAAAAAAAAAAAAlwGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T00:29:51.014Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

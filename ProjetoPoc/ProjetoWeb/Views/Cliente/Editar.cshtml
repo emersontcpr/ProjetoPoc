@@ -1,0 +1,129 @@
+﻿@model ProjetoWeb.Models.Cliente
+<p>
+    <h2>Criar Cliente</h2>
+</p>
+@if (ViewBag.SucessoMessage != null)
+{
+    <div style="color: green; font-weight: bold;">
+        @ViewBag.SucessoMessage
+    </div>
+}
+
+@if (ViewBag.ErrorMessage != null)
+{
+    <div style="color: red; font-weight: bold;">
+        @ViewBag.ErrorMessage
+    </div>
+}
+
+@if (TempData["SucessoMessage"] != null)
+{
+    <div style="color: green; font-weight: bold;">
+        @TempData["SucessoMessage"]
+    </div>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div style="color: red; font-weight: bold;">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+<form asp-action="EditarSalvar" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label asp-for="Nome" class="control-label"></label>
+        <input asp-for="Nome" class="form-control" />
+        <span asp-validation-for="Nome" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Email" class="control-label"></label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label>Imagem Atual</label><br />
+        @if (Model.Logotipo != null && Model.Logotipo.Length > 0)
+        {
+            <img src="data:image/png;base64,@Convert.ToBase64String(Model.Logotipo)" style="width: 150px; height: auto;" />
+        }
+    </div>
+
+    <div class="form-group">
+        <label asp-for="LogotipoFile" class="control-label"></label>
+        <input asp-for="LogotipoFile" type="file" accept=".jpg,.jpeg,.png,.gif,.ico" class="form-control" />
+        <span asp-validation-for="LogotipoFile" class="text-danger"></span>
+    </div>
+    <div>
+        <h3>Logradouros</h3>
+        <button type="button" class="btn btn-secondary" onclick="addRow()">Adicionar Logradouro</button>
+
+        <table class="table table-bordered" id="TableLogradouros">
+            <thead>
+                <tr>
+                    <th>Descrição</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+               
+                    @if (Model.Logradouros != null)
+                    {
+                        for (int i = 0; i < Model.Logradouros.Count; i++)
+                        {
+                        <tr>
+                            <td>
+                                <input type="hidden" asp-for="Logradouros[@i].Id" />
+                                <input type="hidden" asp-for="Logradouros[@i].IdCliente" />
+                                <input asp-for="Logradouros[@i].Descricao" class="form-control" />
+                            </td>
+                            <td>  <button type="button" class="btn btn-danger" onclick="deleteLogradouro(@Model.Logradouros[i].Id, this)">Remover</button></td>
+                        </tr>
+                        }
+                    }
+            </tbody>
+        </table>
+    </div>
+    <input type="hidden" asp-for="Id" />
+    <input type="hidden" name="Logotipo" value="@Convert.ToBase64String(Model.Logotipo ?? new byte[0])" />
+
+    <br />
+    <button type="submit" class="btn btn-primary">Salvar</button>
+    <a asp-action="Index" class="btn btn-secondary">Voltar</a>
+</form>
+
+
+<script>
+    function addRow() {
+        const rowCount = document.querySelectorAll('#TableLogradouros tbody tr').length;
+        const newRow = `<tr>
+                                                        <td><input type="text" name="Logradouros[${rowCount}].Descricao" class="form-control" /></td>
+                                                <td><button type="button" class="btn btn-danger" onclick="removeRow(this)">Remover</button></td>
+                                            </tr>`;
+        document.querySelector('#TableLogradouros tbody').insertAdjacentHTML('beforeend', newRow);
+    }
+    function removeRow(button) {
+        button.closest('tr').remove();
+    }
+
+    function deleteLogradouro(logradouroId, button) {
+        if (confirm('Tem certeza de que deseja remover este logradouro?')) {
+            $.ajax({
+                url: '/Cliente/DeleteLogradouro', // A URL da sua controller para deletar
+                type: 'POST',
+                data: { id: logradouroId },
+                success: function (response) {
+                    if (response.success) {
+                        $(button).closest('tr').remove(); // Remove a linha da tabela
+                        alert('Logradouro removido com sucesso.');
+                    } else {
+                        alert('Erro ao remover o logradouro.');
+                    }
+                },
+                error: function () {
+                    alert('Erro ao comunicar-se com o servidor.');
+                }
+            });
+        }
+    }
+</script>

@@ -1,0 +1,80 @@
+﻿@{
+    ViewData["Title"] = "Lista de Clientes";
+}
+
+ @model IEnumerable<ProjetoWeb.Models.Cliente>
+<p>
+    <a asp-action="Novo" class="btn btn-success">Adicionar Novo Cliente</a>
+</p>
+@if (ViewBag.SucessoMessage != null)
+{
+    <div style="color: green; font-weight: bold;">
+        @ViewBag.SucessoMessage
+    </div>
+}
+
+@if (ViewBag.ErrorMessage != null)
+{
+    <div style="color: red; font-weight: bold;">
+        @ViewBag.ErrorMessage
+    </div>
+}
+
+@if (TempData["SucessoMessage"] != null)
+{
+    <div style="color: green; font-weight: bold;">
+        @TempData["SucessoMessage"]
+    </div>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div style="color: red; font-weight: bold;">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Nome</td>
+                <td>@item.Email</td>
+                <td>
+                    <a asp-action="Editar" asp-route-id="@item.Id" class="btn btn-primary btn-sm">Editar</a>
+                    <a href="javascript:void(0);" onclick="confirmDelete('@item.Id')" class="btn btn-danger btn-sm">Excluir</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+<script>
+    function confirmDelete(id) {
+        if (confirm("Tem certeza que deseja excluir este Cliente??")) {
+            // Se o usuário confirmar, cria um formulário e envia
+            const form = document.createElement('form');
+            form.method = 'post';
+            form.action = '@Url.Action("DeleteCliente", "Cliente")';
+
+            // Adiciona o campo hidden para o ID do produto
+            const hiddenField = document.createElement('input');
+            hiddenField.type = 'hidden';
+            hiddenField.name = 'Id';
+            hiddenField.value = id;
+            form.appendChild(hiddenField);
+
+            document.body.appendChild(form);
+            form.submit();
+        }
+    }
+</script>

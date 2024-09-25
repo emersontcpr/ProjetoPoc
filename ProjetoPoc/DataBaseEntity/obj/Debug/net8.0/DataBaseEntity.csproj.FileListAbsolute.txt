@@ -1,0 +1,14 @@
+C:\Users\Cliente\source\repos\TesteBanco\DataBaseEntity\bin\Debug\net8.0\DataBaseEntity.deps.json
+C:\Users\Cliente\source\repos\TesteBanco\DataBaseEntity\bin\Debug\net8.0\DataBaseEntity.runtimeconfig.json
+C:\Users\Cliente\source\repos\TesteBanco\DataBaseEntity\bin\Debug\net8.0\DataBaseEntity.dll
+C:\Users\Cliente\source\repos\TesteBanco\DataBaseEntity\bin\Debug\net8.0\DataBaseEntity.pdb
+C:\Users\Cliente\source\repos\TesteBanco\DataBaseEntity\obj\Debug\net8.0\DataBaseEntity.csproj.AssemblyReference.cache
+C:\Users\Cliente\source\repos\TesteBanco\DataBaseEntity\obj\Debug\net8.0\DataBaseEntity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cliente\source\repos\TesteBanco\DataBaseEntity\obj\Debug\net8.0\DataBaseEntity.AssemblyInfoInputs.cache
+C:\Users\Cliente\source\repos\TesteBanco\DataBaseEntity\obj\Debug\net8.0\DataBaseEntity.AssemblyInfo.cs
+C:\Users\Cliente\source\repos\TesteBanco\DataBaseEntity\obj\Debug\net8.0\DataBaseEntity.csproj.CoreCompileInputs.cache
+C:\Users\Cliente\source\repos\TesteBanco\DataBaseEntity\obj\Debug\net8.0\DataBaseEntity.dll
+C:\Users\Cliente\source\repos\TesteBanco\DataBaseEntity\obj\Debug\net8.0\refint\DataBaseEntity.dll
+C:\Users\Cliente\source\repos\TesteBanco\DataBaseEntity\obj\Debug\net8.0\DataBaseEntity.pdb
+C:\Users\Cliente\source\repos\TesteBanco\DataBaseEntity\obj\Debug\net8.0\DataBaseEntity.genruntimeconfig.cache
+C:\Users\Cliente\source\repos\TesteBanco\DataBaseEntity\obj\Debug\net8.0\ref\DataBaseEntity.dll

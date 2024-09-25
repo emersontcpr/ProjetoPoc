@@ -1,0 +1,40 @@
+Para rodar o Projeto em uma Máquina de Desenvolvedor 
+
+
+Deve ter Visual Studio 2022 com  framework .Net Core 8 
+
+Banco de Dados Sql Server Versão 16.0
+
+Deve-se Criar Um  banco de dados para o Cliente Rodando o Script anexada junto com projeto 
+
+pós criar o Banco rodar o Inserte inicial para um usuário 
+o Usurio e mesmo para Logar no Sistema e Autentificar na WebApi
+Ex:
+
+INSERT INTO [dbo].[Login]
+           ([Login]
+           ,[Senha]
+           ,[StatusUsuario])
+    VALUES
+           ('admin'
+           ,'MTIz'
+           ,1)
+
+
+
+A senha deve ser gerada  e passada para String Base64 
+
+Deve-se Rodar os Projetos   ProjetoWeb  e WebApiPOC 
+
+Caso Necessário Configurar no appsettings.json do  	ProjetoWeb
+ "Config": {
+  "urlBaseApi": "https://localhost:7213/"
+ }
+Colocar a Url da api
+
+
+Caso Necessário Configurar no appsettings.json do  	WebApiPOC
+"ConnectionStrings": {
+  "DefaultConnection": "Server=[IPBanco];Database=Cliente;User Id=[LoginBanco];Password=[SenhaBANCO];TrustServerCertificate=True;"
+}
+Colocar os dados do Banco 

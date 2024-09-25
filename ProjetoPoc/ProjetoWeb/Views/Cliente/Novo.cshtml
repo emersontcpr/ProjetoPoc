@@ -1,0 +1,62 @@
+﻿@model ProjetoWeb.Models.Cliente
+<h2>Criar Cliente</h2>
+
+@if (ViewBag.ErrorMessage != null)
+{
+    <div style="color: red;">@ViewBag.ErrorMessage</div>
+}
+<form asp-action="Novo" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label asp-for="Nome" class="control-label"></label>
+        <input asp-for="Nome" class="form-control" />
+        <span asp-validation-for="Nome" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Email" class="control-label"></label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="LogotipoFile" class="control-label"></label>
+        <input asp-for="LogotipoFile" type="file" accept=".jpg,.jpeg,.png,.gif,.ico" class="form-control" />
+        <span asp-validation-for="LogotipoFile" class="text-danger"></span>
+    </div>
+    <div>
+        <h3>Logradouros</h3>
+        <button type="button" class="btn btn-secondary" onclick="addRow()">Adicionar Logradouro</button>
+
+        <table class="table table-bordered" id="TableLogradouros">
+            <thead>
+                <tr>
+                    <th>Descrição</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input type="text" name="Logradouros[0].Descricao" class="form-control" /></td>
+                    <td><button type="button" class="btn btn-danger" onclick="removeRow(this)">Remover</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Salvar</button>
+    <a asp-action="Index" class="btn btn-secondary">Voltar</a>
+</form>
+
+
+<script>
+    function addRow() {
+        const rowCount = document.querySelectorAll('#TableLogradouros tbody tr').length;
+        const newRow = `<tr>
+                                                    <td><input type="text" name="Logradouros[${rowCount}].Descricao" class="form-control" /></td>
+                                            <td><button type="button" class="btn btn-danger" onclick="removeRow(this)">Remover</button></td>
+                                        </tr>`;
+        document.querySelector('#TableLogradouros tbody').insertAdjacentHTML('beforeend', newRow);
+    }
+
+    function removeRow(button) {
+        button.closest('tr').remove();
+    }
+</script>
